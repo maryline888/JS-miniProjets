@@ -1,0 +1,68 @@
+/* variables */
+
+:root{
+    --color1: black;
+    --color2:white;
+    --color3:purple;
+    --base-color:pink;
+}
+
+
+body{
+    background-color: var(--color1);
+    font-family: sans-serif;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.bordur{
+    border: 2px solid pink;
+    width: 60%; 
+    text-align: center;
+}
+    
+.wrapper{
+    color: var(--color2);
+    border: solid 8px var(--color3);
+}
+h1,
+h2,
+h3{
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 2.6em;
+    text-transform: uppercase;
+    margin-bottom: 27px;
+}
+h2{
+    font-size: 1.5em;
+}
+
+#seconds, 
+#tens{
+    font-size: 2em;
+}
+
+button{
+    background-color: var(--color3);
+    color: var(--color2);
+    font-weight: 600;
+    border: solid 2px var(--color2);
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 1.2em;
+    padding: 18px 10px;
+    width: 180px;
+    /* outline: none; */
+    margin-bottom: 150px;   
+}
+
+button:hover{
+    background-color: var(--color2);
+    border: solid 1px var(--color2);
+    color: var(--color3);
+}
